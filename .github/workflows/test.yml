@@ -32,5 +32,4 @@ jobs:
           args: >
             -Dsonar.projectKey=BiscayN_python-project-50
             -Dsonar.organization=biscayn
-            -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.python.coverage.reportPaths=coverage.xml
