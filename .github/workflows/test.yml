@@ -30,6 +30,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=hexlet-boilerplates_python-package
-            -Dsonar.organization=hexlet-boilerplates
+            -Dsonar.projectKey=57e4df46831c0543cbb5de93848f5c2dc08d9fe1
+            -Dsonar.organization=biscayn
             -Dsonar.python.coverage.reportPaths=coverage.xml
