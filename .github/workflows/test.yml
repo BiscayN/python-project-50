@@ -28,7 +28,6 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v5
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONARCLOUD_TOKEN: ${{ secrets.SONARCLOUD_TOKEN }}
         with:
           args: >
             -Dsonar.projectKey=BiscayN_python-project-50
