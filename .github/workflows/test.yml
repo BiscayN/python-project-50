@@ -24,13 +24,6 @@ jobs:
       - name: Run test coverage
         run: |
           make test-coverage
-      - name: Run tests with coverage
-        run: |
-          pytest --cov=. --cov-report=xml
-      - name: Upload coverage to SonarCloud
-        uses: sonarsource/sonarcloud-github-action@v1
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: SonarQubeScan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
